@@ -11,7 +11,7 @@ const singIn = document.getElementById('sing-in');
 const cards = document.getElementById('cards');
 
 home.addEventListener('click', function () {
-  window.location.href = '../HTML/asosiy.html'
+  window.location.href = '../HTML/index.html'
 })
 cabinet.addEventListener('click', function () {
   window.location.href = '../HTML/cabinet.html'

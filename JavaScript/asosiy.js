@@ -10,7 +10,7 @@ const SEARCH_API =
   'https://api.themoviedb.org/3/search/movie?api_key=3fd2be6f0c70a2a598f084ddfb75487c&query="';
 
   home.addEventListener('click',function(){
-	window.location.href = '../HTML/asosiy.html'
+	window.location.href = '../HTML/index.html'
   })
   cabinet.addEventListener('click',function(){
 	window.location.href = '../HTML/cabinet.html'
