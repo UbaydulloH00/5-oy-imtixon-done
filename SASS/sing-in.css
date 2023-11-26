@@ -1,0 +1,156 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+  font-family: "Manrope";
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0% auto;
+}
+
+.container .head {
+  margin-bottom: 100px;
+  padding-bottom: 10px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .head a {
+  text-decoration: none;
+  color: white;
+}
+.container .head .head__logo {
+  cursor: pointer;
+}
+.container .head .head__menu {
+  cursor: pointer;
+  background-color: #0F0F0F;
+  padding: 8px;
+  display: flex;
+  gap: 10px;
+  border-radius: 12px;
+  border: 4px solid #1F1F1F;
+}
+.container .head .head__menu a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container .head .head__menu a:hover {
+  background-color: #1A1A1A;
+  border-radius: 1px;
+  font-weight: 500;
+}
+
+.header {
+  display: flex;
+  gap: 50px;
+}
+.header .header__head {
+  width: 40%;
+  margin-bottom: 50px;
+}
+.header .header__head img {
+  width: 500px;
+}
+.header .header__head h1 {
+  width: 500px;
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.header .header__head p {
+  padding-bottom: 10px;
+  width: 500px;
+  color: var(--grey-60, #999);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.header .header__form {
+  height: 660px;
+  width: 55%;
+  background-color: #0F0F0F;
+  border: 1px solid #0F0F0F;
+  border-radius: 15px;
+}
+.header .header__form .header__form-login {
+  padding: 50px;
+}
+.header .header__form .header__form-login h1 {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #141414;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header .header__form .header__form-login h1 span {
+  color: blue;
+  font-weight: 600;
+}
+.header .header__form .header__form-login a {
+  text-decoration: none;
+}
+.header .header__form .header__form-login a input {
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  background-color: rgb(23, 91, 113);
+  width: 100%;
+  padding: 15px;
+  color: white;
+  border-radius: 15px;
+}
+.header .header__form form {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.header .header__form form #erro {
+  color: red;
+  display: block;
+}
+.header .header__form form input[type=button] {
+  border: none;
+  color: white;
+  background-color: blue;
+  width: 200px;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.header .header__form form span {
+  width: 280px;
+  margin-top: 30px;
+}
+.header .header__form form span lable {
+  margin-bottom: 5px;
+}
+.header .header__form form span input {
+  padding: 20px;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #262626;
+  background-color: #141414;
+  outline: none;
+  width: 280px;
+  color: white;
+}/*# sourceMappingURL=sing-in.css.map */

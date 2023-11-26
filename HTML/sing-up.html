@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../SASS/font.css">
+    <link rel="stylesheet" href="../SASS/sing-up.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing-up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="head__logo">
+                <i class="fa-regular fa-moon" style="color: #ffffff;"></i>
+                <span>THE BEST STREAM</span>
+            </div>
+            <div class="head__menu">
+                <p id="home">Home</p>
+                <p id="cabinet">Cabinet</p>
+                <p id="sing-in">Support</p>
+            </div>
+            <div class="head__sing-up">
+                <a href="./singup.html"><i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="log">
+        <h1>LOGIN</h1>
+        <div id="error-login"></div>
+     <div class="log__item">
+        <form>
+            <span>
+                <label for="formLogin">Login</label>
+            <input type="text" id="formLogin" placeholder="Enter Login">
+            </span>
+           
+            <span>
+                <label for="formPassword">Password</label>
+            <input type="password" id="formPassword" placeholder="Enter Password" >
+            </span>
+            <div class="eror-div" id="error-password"></div>
+                <button id="login-button">LOGIN</button>
+        </form>
+       
+     </div>
+    </div>
+    <script>
+        // document.getElementById('login-button').addEventListener('click', function() {
+        //     // Yangi sahifaga o'tish uchun
+        //     window.location.href = 'asosiy.html';
+        // });
+    </script>
+
+<script type="module" src="../JavaScript/sing-up.js"></script>
+</body>
+</html>

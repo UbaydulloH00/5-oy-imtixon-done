@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> b
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../SASS/font.css">
+    <link rel="stylesheet" href="../SASS/asosiy.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container">
+            <div class="head">
+                <div class="head__logo">
+                    <i class="fa-regular fa-moon" style="color: #ffffff;"></i>
+                    <span>THE BEST STREAM</span>
+                </div>
+                <div class="head__search">
+                    <form >
+                       <span> <input type="search" placeholder="Searching filim" id="input-search"></span>
+                       <span> <i class="fa-brands fa-searchengin" style="color: #ffffff;" id="serach-button"></i></span>
+
+                    </form>
+                   
+                </div>
+                
+                <div class="head__menu">
+                <p id="home">Home</p>
+                <p id="cabinet">Cabinet</p>
+                <p id="sing-in">Support</p>
+                </div>
+                <div class="head__sing-up">
+                    <p id="sing-up-button"><i class="fa-regular fa-user" style="color: #ffffff;"></i></>
+                    <p id="sing-in-button"><i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i></p>
+                </div>
+            </div>
+        </div>
+    <header>
+     <div class="header__hero">
+        <div class="container">
+            <div class="header__icon">
+                <i class="fa-solid fa-play" ></i>
+            </div>
+            <div class="header__heading">
+                <h1>The Best Streaming Experience</h1>
+                <p>StreamVibe is the best streaming experience for watching your favorite movies
+                     and shows on demand, anytime, anywhere. With StreamVibe, you can enjoy a wide 
+                     variety of content, including the latest blockbusters, classic movies, popular 
+                     TV shows, and more. You can also create your
+                     own watchlists, so you can easily find the 
+                     content you want to watch.</p>
+            </div>
+        </div>
+     </div>
+     <div class="header__head">
+        <div class="container">
+            <div class="header__head-cards" id="cards">
+                <div class="header__head-item">
+                    <section class="item-img">
+                        <img src="${IMG_PATH}${el.backdrop_path}" alt="${el.title}">
+                    </section>
+                    <section class="item-inform">
+                        <span>${el.title}</span>
+                        <span>${el.overview}</span>
+                    </section>
+                </div>
+               
+            </div>
+        </div>
+     </div>
+    </header>
+    <footer></footer>
+
+
+
+    <script type="module" src="../JavaScript/asosiy.js"></script>
+</body>
+</html>
